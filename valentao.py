@@ -457,7 +457,7 @@ def run_worker():
                 elif action_type == "START_ELECTION":
                     if my_state != STATE_ELECTION:
                         my_state = STATE_ELECTION
-                        patience_timer = 1 # Espero 1 rodada
+                        patience_timer = 3 # Espero 1 rodada
                         update_status_gui("Eleição") 
                         
                         # Manda eleição pra todo mundo maior que eu
