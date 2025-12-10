@@ -123,6 +123,7 @@ def run_maestro():
         kill_buttons.append({'rank': i, 'rect': rect})
 
     running = True
+    comm.Barrier()
     # Loop principal da interface
     while running:
         # Verifica se tem mensagem chegando sem travar a tela
@@ -327,7 +328,7 @@ def run_worker():
     # Já avisa a interface quem sou eu no começo
     if rank == current_leader: update_status_gui("LÍDER")
     else: update_status_gui("Normal")
-
+    comm.Barrier()
     # Loop principal do processo
     while True:
         status = MPI.Status()
