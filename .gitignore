@@ -1,0 +1,35 @@
+# --- Python (Bytecode e Cache) ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Ambientes Virtuais (Essencial não subir isso!) ---
+venv/
+env/
+.venv/
+.env
+
+# --- IDEs e Editores (Configurações locais suas) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs e Arquivos de Erro ---
+*.log
+pip-log.txt
+mpi_err*
+
+# --- Sistema Operacional (Lixo do Windows/Mac) ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Builds e Distribuição (Caso gere executáveis depois) ---
+build/
+dist/
+*.spec
+
+# --- Pygame (Arquivos temporários se houver) ---
+savepoints/
+screenshots/
