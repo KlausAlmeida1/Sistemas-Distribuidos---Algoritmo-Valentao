@@ -1,4 +1,4 @@
-# Simulação do Algoritmo do Valentão (Bully Algorithm) com MPI
+# Simulação do Algoritmo do Valentão com MPI
 
 Este projeto é uma implementação didática e visual do **Algoritmo de Eleição do Valentão (Bully Algorithm)** em sistemas distribuídos, utilizando **Python**, **MPI (Message Passing Interface)** para comunicação entre processos e **Pygame** para visualização gráfica do estado do sistema.
 
